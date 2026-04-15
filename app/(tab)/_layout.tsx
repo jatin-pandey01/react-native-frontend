@@ -8,7 +8,7 @@ const TabRoot = () => {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "Vehicles",
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="home" color={color} />
           ),
@@ -26,7 +26,7 @@ const TabRoot = () => {
       <Tabs.Screen
         name="profile"
         options={{
-          title: "Profile",
+          title: "Employee",
           tabBarIcon: () => <FontAwesome size={28} name="user" />,
         }}
       />
