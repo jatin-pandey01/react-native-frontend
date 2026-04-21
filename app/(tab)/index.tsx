@@ -26,7 +26,7 @@ const Home = () => {
     <View style={styles.container}>
       <ScrollView>
         {vehicles.map((vehicle) => (
-          <VehicleCard key={vehicle.id} vehicle={vehicle} />
+          <VehicleCard key={vehicle._id} vehicle={vehicle} />
         ))}
       </ScrollView>
 
